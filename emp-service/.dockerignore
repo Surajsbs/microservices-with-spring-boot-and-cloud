@@ -1,0 +1,13 @@
+.get
+wiremock
+
+.dockerignore
+.env
+.env.*
+.gitignore
+docker-compose.yml
+Dockerfile
+env.example
+env.template
+Makefile
+README.md
