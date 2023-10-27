@@ -25,7 +25,7 @@ eureka.instance.hostname=localhost
 Department service is the sub-service which pull the associated department for an employee. This service is registered in the service registry for dynamic discovery.
 ```
 eureka.client.register-with-eureka=true
-eureka.client.fetch-registry=true
+eureka.client.fetch-registry=false
 eureka.instance.instance-id=${spring.application.name}:${random.int}
 eureka.instance.hostname=localhost
 ```
